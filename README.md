@@ -50,15 +50,15 @@ No pre-loaded database. No hard-coded PDF. Your files are the single source of t
 
 ```mermaid
 flowchart TD
-    U[👤 User question] --> S{🧠 Supervisor}
-    S -->|PDF question| P[📚 PDF Search]
-    S -->|Table question| D[🐼 Data Query]
+    U[User question] --> S{Supervisor}
+    S -->|PDF question| P[PDF Search]
+    S -->|Table question| D[Data Query]
     S -->|Needs both| P
     P -->|both| D
-    P -->|PDF only| Y[✍️ Synthesizer]
+    P -->|PDF only| Y[Synthesizer]
     D --> Y
     S -->|Greeting / no files| Y
-    Y --> A[✅ Grounded answer + citations]
+    Y --> A[Grounded answer + citations]
 ```
 
 | Node | Job |
