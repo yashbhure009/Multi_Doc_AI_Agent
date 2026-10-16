@@ -1,0 +1,13 @@
+streamlit
+langchain-core
+langchain-groq
+langchain-text-splitters
+langgraph
+chromadb
+pandas
+numpy
+openpyxl
+xlrd
+pypdf
+pydantic
+python-dotenv

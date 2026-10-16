@@ -1,0 +1,6 @@
+EmployeeID,FirstName,LastName,Email,Department,JoinDate,Salary,City
+1001,John,Doe,john.doe@company.com,IT,2022-01-15,85000,Pune
+1002,Jane,Smith,jane.smith@company.com,HR,2021-06-23,75000,Mumbai
+1003,Michael,Brown,michael.brown@company.com,Finance,2023-03-10,90000,Delhi
+1004,Emily,Davis,emily.davis@company.com,Marketing,2020-11-01,68000,Pune
+1005,David,Wilson,david.wilson@company.com,Sales,2024-02-18,72000,Mumbai
