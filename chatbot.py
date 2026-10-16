@@ -3,6 +3,7 @@ from agent import build_graph, format_history
 from store import FileStore
 st.set_page_config(page_title="Multi-File AI Assistant", layout="wide")
 st.title("Multi-File AI Assistant")
+st.subheader("~Yash Bhure")
 st.caption("Upload PDFs, CSV and Excel files. The agent picks the right files and answers only from them.")
 if "store" not in st.session_state:
     st.session_state.store = FileStore()
